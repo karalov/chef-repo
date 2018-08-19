@@ -1,0 +1,6 @@
+ This server is the property of <%= @name %>
+
+    HOST: <%= node['hostname'] %>
+    IP: <%= node['ipaddress'] %>
+    CPU: <%= node['cpu']['0']['mhz'] %> Mhz
+    MEMORY: <%= node['memory']['total'] %> 
